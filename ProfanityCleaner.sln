@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E73958F8-0F4A-4568-B876-10628538FE4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B0F61F5-DA47-43C7-9982-5CA7CE4866FC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ProfanityCleaner", "src\ProfanityCleaner\ProfanityCleaner.xproj", "{8CE33248-1EB7-4F8D-8BE5-E70A90E828CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CE33248-1EB7-4F8D-8BE5-E70A90E828CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE33248-1EB7-4F8D-8BE5-E70A90E828CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE33248-1EB7-4F8D-8BE5-E70A90E828CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE33248-1EB7-4F8D-8BE5-E70A90E828CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CE33248-1EB7-4F8D-8BE5-E70A90E828CB} = {E73958F8-0F4A-4568-B876-10628538FE4A}
+	EndGlobalSection
+EndGlobal
